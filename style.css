@@ -18,12 +18,7 @@ body {
 	background: #f0f0f0;	/*背景色*/
 	-webkit-text-size-adjust: none;
 }
-h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form {margin: 0px;padding: 0px;font-size: 100%;font-weight: normal;}
 ul {list-style-type: none;}
-ol {padding-left: 40px;padding-bottom: 15px;}
-img {border: none;max-width: 100%;height: auto;vertical-align: middle;}
-table {border-collapse:collapse;font-size: 100%;border-spacing: 0;}
-iframe {width: 100%;}
 
 @keyframes opa1 {
 0% {opacity: 0;}
@@ -40,23 +35,6 @@ a:hover {
 	color: #457ae6;			/*マウスオン時の文字色*/
 	text-decoration: none;	/*マウスオン時に下線を消す設定。残したいならこの１行削除。*/
 }
-
-/*ヘッダー（一番上の、ロゴやメニューが入っているブロック）
----------------------------------------------------------------------------*//*
-header {
-	height: 100%;
-	overflow: auto;
-	position: relative;
-	background: url(../images/mainimg.jpg) no-repeat center center / cover; */	/*背景画像の読み込み*//*
-} */
-/*ロゴ画像*//*
-header #logo img {
-	display: block;
-	width: 20%;	/*画像の幅*//*
-	position: absolute;
-	left: 40%;		*//*ロゴやメニューが入っているブロックに対して、左からの配置場所の指定。*//*
-	bottom: 50%;	*//*ロゴやメニューが入っているブロックに対して、下からの配置場所の指定。*//*
-}*/
 
 /*メニュー
 ---------------------------------------------------------------------------*/
@@ -97,34 +75,6 @@ header #logo img {
 	margin: 0 auto;
 }
 
-/*Serviceページ
----------------------------------------------------------------------------*/
-/*各ブロックごとの設定*/
-.list {
-	overflow: hidden;
-	line-height: 1.5;
-	border-bottom: 1px solid #999;	/*下線の幅、線種、色*/
-	padding: 20px;	/*ボックス内の余白*/
-}
-/*１番目のlistブロックへの追加指定。上に線を入れる。*/
-.list:first-of-type {
-	border-top: 1px solid #999;
-}
-/*h4見出しの設定*/
-.list h4 {
-	font-size: 20px;	/*文字サイズ*/
-	margin-bottom: 10px;
-}
-/*画像の設定*/
-.list img {
-	width: 20%;			/*画像幅*/
-	float: left;		/*画像を左に回り込み*/
-	margin-right: 3%	/*画像の右側に空けるスペース*/
-}
-/*段落タグ*/
-.list p {
-	padding: 0 !important;
-}
 
 /*フッター設定
 ---------------------------------------------------------------------------*/
@@ -147,34 +97,6 @@ footer .pr {
 	font-size: 80%;
 }
 
-/*トップページ内「更新情報・お知らせ」ブロック
----------------------------------------------------------------------------*/
-/*ブロック全体の設定*/
-#new dl {
-	padding-left: 20px;
-	margin-bottom: 15px;
-}
-/*日付設定*/
-#new dt {
-	float: left;
-	width: 9em;
-	letter-spacing: 0.1em;
-}
-/*記事設定*/
-#new dd {
-	padding-left: 9em;
-}
-
-
-/*ul.disc,olタグ
----------------------------------------------------------------------------*/
-ul.disc {
-	list-style: disc;
-	padding: 0 20px 20px 55px;
-}
-ol {
-	padding: 0 20px 20px 42px;
-}
 
 /*その他
 ---------------------------------------------------------------------------*/
