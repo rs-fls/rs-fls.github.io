@@ -1,29 +1,33 @@
 @charset "utf-8";
 
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #1b2538;
-}
-li {
-	float: left;
-	border-right: 1px solid #bbbbbb;
-}
-li:last-child {
-	border-right: none;
-}
-li a {
-	display: block;
-	color: white;
+/*メニュー
+---------------------------------------------------------------------------*/
+/*メニューブロック全体への指定*/
+#menubar {
+	position: absolute;
+	bottom: 20%;	/*ロゴやメニューが入っているブロックに対して、下からの配置場所の指定。*/
+	left: 0px;
+	width: 100%;
 	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
 }
-li a:hover:not(.active) {
-	background-color: #a9bce2;
+/*メニュー１個あたりの指定*/
+#menubar li {
+	display: inline-block;
+	margin: 0 1%;
+	animation-name: opa1;
+	animation-delay: 1S;
+	animation-duration: 1S;
+	animation-fill-mode: both;
 }
-.active {
-	background-color: #da3c41;
+#menubar li a {
+	text-decoration: none;display: block;text-align: center;
+	width: 140px;	/*メニューの幅*/
+	color: #fff;	/*文字色*/
+	border-bottom: 2px solid transparent;	/*下線の幅、線種、色。transparentは透明の事。*/
+	padding-bottom: 7px;	/*下線と文字の間にとる余白*/
+}
+/*マウスオン時の指定*/
+#menubar li a:hover {
+	border-bottom: 2px solid #fff;	/*下線の幅、線種、色*/
+	letter-spacing: 0.1em;			/*文字間隔を少しだけ広くする指定。そのままがいいならこの１行を削除。*/
 }
