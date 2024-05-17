@@ -30,10 +30,10 @@ nav a{
 }
 
 nav li.current{
-	border-bottom: 3px solid #92D050;
+	border-bottom: 3px solid #3E5922;
 }
 
 nav li:hover{
-	color: #E7DA66;
-	border-bottom: 3px solid #F0E475;
+	color: #cc6d3d;
+	border-bottom: 3px solid #cc6d3d;
 }
