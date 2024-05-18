@@ -64,6 +64,3 @@ h1::before {
   border-bottom: solid 15px transparent;
   border-right: solid 20px rgb(149, 158, 155);
 }
-h1:after {
-  right: 7px;
-}
