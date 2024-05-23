@@ -42,58 +42,7 @@ body {
 
 /*フッター設定
 ---------------------------------------------------------------------------*/
-.footer_a {
-  color: #f0f0f0;
-  text-decoration: none;
-}
 
-.footer_a:hover {
-  color: #ffffff;
-}
-
-.footer {
-  padding: 2rem;
-  font-size: 15px;
-  color: #f0f0f0;
-  background: #333;
-}
-
-.footer__navi-heading {
-  font-weight: 600;
-}
-
-.footer__logo {
-  display: inline-block;
-  margin-bottom: 2rem;
-}
-
-.footer__navi li {
-  margin-bottom: 0.75rem;
-}
-
-.footer__social a {
-  display: inline-block;
-  width: 24px;
-  opacity: 0.7;
-}
-
-.footer__social a:not(:last-child) {
-  margin-right: 16px;
-}
-
-@media (min-width: 768px) {
-  .md-flex {
-    display: flex;
-  }
-
-  .md-justify-between {
-    justify-content: space-between;
-  }
-
-  .grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-}
 
 /*h1
 ---------------------------------------------------------------------------*/
