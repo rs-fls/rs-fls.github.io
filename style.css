@@ -46,6 +46,27 @@ body {
 	letter-spacing: 0.1em;			/*文字間隔を少しだけ広くする指定。そのままがいいならこの１行を削除。*/
 }
 
+/*フッター設定
+---------------------------------------------------------------------------*/
+footer {
+	clear: both;
+	text-align: center;
+	background: #222;	/*背景色*/
+	color: #fff;		/*文字色*/
+	font-size: 85%;		/*文字サイズ*/
+}
+footer a {
+	color: #fff;	/*リンクテキストの文字色*/
+	text-decoration: none;
+}
+footer a:hover {
+	color: #fff;	/*マウスオン時の文字色*/
+}
+footer .pr {
+	display: block;
+	font-size: 80%;
+}
+
 /*h1
 ---------------------------------------------------------------------------*/
 .heading10 {
