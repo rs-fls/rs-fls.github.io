@@ -42,23 +42,48 @@ body {
 
 /*フッター設定
 ---------------------------------------------------------------------------*/
-footer {
-	clear: both;
-	text-align: center;
-	background: #222;	/*背景色*/
-	color: #fff;		/*文字色*/
-	font-size: 85%;		/*文字サイズ*/
+.footer {
+  padding: 2rem;
+  font-size: 15px;
+  color: #f0f0f0;
+  background: #333;
 }
-footer a {
-	color: #fff;	/*リンクテキストの文字色*/
-	text-decoration: none;
+
+.footer__navi-heading {
+  font-weight: 600;
 }
-footer a:hover {
-	color: #fff;	/*マウスオン時の文字色*/
+
+.footer__logo {
+  display: inline-block;
+  margin-bottom: 2rem;
 }
-footer .pr {
-	display: block;
-	font-size: 80%;
+
+.footer__navi li {
+  margin-bottom: 0.75rem;
+}
+
+.footer__social a {
+  display: inline-block;
+  width: 24px;
+  opacity: 0.7;
+}
+
+.footer__social a:not(:last-child) {
+  margin-right: 16px;
+}
+
+@media (min-width: 768px) {
+  .md-flex {
+    display: flex;
+  }
+
+  .md-justify-between {
+    justify-content: space-between;
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 
 /*h1
