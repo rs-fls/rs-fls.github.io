@@ -11,11 +11,6 @@ body {
 	-webkit-text-size-adjust: 100%;
 }
 
-@keyframes opa1 {
-0% {opacity: 0;}
-100% {opacity: 1;}
-}
-
 /*メニュー
 ---------------------------------------------------------------------------*/
 /*メニューブロック全体への指定*/
@@ -28,7 +23,6 @@ body {
 #menubar li {
 	display: inline-block;
 	margin: 0 1%;
-	animation-name: opa1;
 	animation-delay: 1S;
 	animation-duration: 1S;
 	animation-fill-mode: both;
@@ -42,7 +36,7 @@ body {
 }
 /*マウスオン時の指定*/
 #menubar li a:hover {
-	border-bottom: 2px solid #f42f14;	/*下線の幅、線種、色*/
+	border-bottom: 2px solid #333;	/*下線の幅、線種、色*/
 	letter-spacing: 0.1em;			/*文字間隔を少しだけ広くする指定。そのままがいいならこの１行を削除。*/
 }
 
